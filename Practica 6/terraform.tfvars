@@ -1,0 +1,10 @@
+vpc_lab_tf_cidr = "10.0.0.0/16"
+# subnetpublic = "10.0.1.0/24"
+# subnetprivate = "10.0.2.0/24"
+subnets = ["10.0.1.0/24", "10.0.2.0/24"]
+tags = {
+    "env" = "dev"
+    "owner" = "Jorge"
+    "Cloud" = "AWS"
+    "IAC" = "Terraform" 
+}
